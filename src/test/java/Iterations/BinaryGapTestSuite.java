@@ -60,6 +60,14 @@ public class BinaryGapTestSuite {
         Assert.assertEquals(expected,result);
     }
 
+    @Test
+    public void testForBigValue(){
+        int N =65531;
+        int result= binaryGap.findLengthOfLongestBinaryGap(N);
+        int expected =1;
+        Assert.assertEquals(expected,result);
+    }
+
 
 
 

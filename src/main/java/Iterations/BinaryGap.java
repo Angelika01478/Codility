@@ -15,14 +15,10 @@ public class BinaryGap {
             if(binaryString.charAt(i)=='1') {
                 if(count>max) max=count;
                 count=0;
-
             }else {
                 count++;
             }
-
-
         }
-
         return max;
     }
 
