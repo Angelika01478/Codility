@@ -69,6 +69,13 @@ public class BinaryGapTestSuite {
     }
 
 
+    @Test
+    public void testForMinValue(){
+        int N =1;
+        int result= binaryGap.findLengthOfLongestBinaryGap(N);
+        int expected =0;
+        Assert.assertEquals(expected,result);
+    }
 
 
 
