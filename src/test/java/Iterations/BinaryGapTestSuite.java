@@ -20,6 +20,46 @@ public class BinaryGapTestSuite {
         Assert.assertEquals(expected,result);
     }
 
+    @Test
+    public void testFromExample2(){
+        int N =529;
+        int result= binaryGap.findLengthOfLongestBinaryGap(N);
+        int expected =4;
+        Assert.assertEquals(expected,result);
+    }
+
+    @Test
+    public void testFromExample3(){
+        int N =20;
+        int result= binaryGap.findLengthOfLongestBinaryGap(N);
+        int expected =1;
+        Assert.assertEquals(expected,result);
+    }
+
+    @Test
+    public void testFromExample4(){
+        int N =15;
+        int result= binaryGap.findLengthOfLongestBinaryGap(N);
+        int expected =0;
+        Assert.assertEquals(expected,result);
+    }
+
+    @Test
+    public void testFromExample5(){
+        int N =1041;
+        int result= binaryGap.findLengthOfLongestBinaryGap(N);
+        int expected =5;
+        Assert.assertEquals(expected,result);
+    }
+
+    @Test
+    public void testFromExample6(){
+        int N =32;
+        int result= binaryGap.findLengthOfLongestBinaryGap(N);
+        int expected =0;
+        Assert.assertEquals(expected,result);
+    }
+
 
 
 
